@@ -1,15 +1,144 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        nav {
+            background-color: #222;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        nav a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .projects a {
+            text-decoration: none;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
 
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+<header>
+    <h1>Your Name</h1>
+    <p>Full Stack Developer | Web Developer | Software Engineer</p>
+</header>
 
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<!-- TODO 4: Add titles/subtitles etc. -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm [Your Name], a passionate software developer who specializes in creating dynamic and user-friendly websites. With a background in [mention relevant degree or self-taught experience], I have honed my skills in both front-end and back-end technologies. I enjoy problem-solving and am always eager to learn new tools and techniques to improve my craft.</p>
+</section>
 
-<!-- TODO 5: Add a link to the project pages -->
+<section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Angular</li>
+        <li>Node.js, Express</li>
+        <li>MongoDB, MySQL</li>
+        <li>Version Control (Git, GitHub)</li>
+        <li>Responsive Web Design</li>
+    </ul>
+</section>
 
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+<section id="projects">
+    <h2>Projects</h2>
+    <ul class="projects">
+        <li>
+            <h3><a href="https://link-to-project.com" target="_blank">Project 1 - E-commerce Website</a></h3>
+            <p>A fully functional e-commerce platform built with React and Node.js. Features user authentication, product catalog, and a shopping cart system.</p>
+        </li>
+        <li>
+            <h3><a href="https://link-to-project.com" target="_blank">Project 2 - Personal Blog</a></h3>
+            <p>A personal blog site built using HTML, CSS, and JavaScript. Includes an admin panel for content management and dynamic blog posts.</p>
+        </li>
+        <li>
+            <h3><a href="https://link-to-project.com" target="_blank">Project 3 - Portfolio Website</a></h3>
+            <p>This very portfolio site! Built using HTML, CSS, and JavaScript, showcasing my skills and projects.</p>
+        </li>
+    </ul>
+</section>
 
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, feel free to reach out to me via email or social media:</p>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
